@@ -1,0 +1,16 @@
+PODS:
+  - canadaDemo (0.1.0)
+
+DEPENDENCIES:
+  - canadaDemo (from `../`)
+
+EXTERNAL SOURCES:
+  canadaDemo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  canadaDemo: 50426b0c3ff52354602f25ffd300217c9bcf18d5
+
+PODFILE CHECKSUM: 0692f608761ac820bf90210fd863dcca631f743b
+
+COCOAPODS: 1.2.1

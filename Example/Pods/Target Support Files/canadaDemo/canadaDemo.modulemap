@@ -1,0 +1,6 @@
+framework module canadaDemo {
+  umbrella header "canadaDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
