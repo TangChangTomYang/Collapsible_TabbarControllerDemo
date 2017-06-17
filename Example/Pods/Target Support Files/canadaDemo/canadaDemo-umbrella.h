@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "YRTabBar.h"
-#import "YRTabBarController.h"
+#import "YRCollapsibleTabBar.h"
+#import "YRCollapsibleTabBarController.h"
 
 FOUNDATION_EXPORT double canadaDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char canadaDemoVersionString[];

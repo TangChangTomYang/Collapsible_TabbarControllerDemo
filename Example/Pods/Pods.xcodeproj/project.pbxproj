@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0111E12B01CA99741401B1C7D065F25D /* YRCollapsibleTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C25DD6FA6EBA1D8A6EDEA90A39BCCF /* YRCollapsibleTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E4D72FDB40DCA630AC9650D44362816 /* Pods-canadaDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8812FA08B8159DD6144D9A68C7BC71 /* Pods-canadaDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14F8E41F82585160BE6F3422335B53FE /* YRCollapsibleTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BE839A7D4037CEC33F90AE9C42010A9F /* YRCollapsibleTabBar.m */; };
+		1F6054D99F505095BB2197C8BC452769 /* YRCollapsibleTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EEE4C54187FF5B0EDE74AC56D8883DD /* YRCollapsibleTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30220DB88898541B1F4C04DF8F149E12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		327BFB766D5E02284221C8243FB02120 /* YRTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B02EEB1667E010102B3DEFB532DA87C /* YRTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34C0E13EE876AFFA5627A1285478FAA9 /* canadaDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5450EF7A323468EBE5F6187DD66D852 /* canadaDemo-dummy.m */; };
 		5F390EE7A767C74E0EF41393B15E054D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		612947EF1D3F889BF159353412EDC3F6 /* canadaDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 255FDFE251B297256450F027667CD181 /* canadaDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DD6D2D48A479A51B3F81B4BE80A1EDE /* YRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92200AFA5DC6F0C6BD5C92BA0BF13709 /* YRTabBarController.m */; };
-		8886DB3E1CF0C49ECEF50554D16288F6 /* YRTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = C50906053E2B0897D0392541AD0BA3E8 /* YRTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89D677322C1358955BB5E32D8684788A /* YRTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F816531AF66533E5BAAC53DD5D7C7F3 /* YRTabBar.m */; };
 		9045AA8D60A6840C4A3E7000F1EF0BF1 /* Pods-canadaDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F6DC859F9E8FA1395343BEB57240ECE /* Pods-canadaDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9108239A7D67C6237182A4A86A4A8C0B /* Pods-canadaDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAADCA3BCF2FF0A60D264264244DAF69 /* Pods-canadaDemo_Tests-dummy.m */; };
 		9CD6835529ED679714C3FFFCFAEB6FE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B33133B22B3C87045CE5ED7CDF8FB907 /* canadaDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5450EF7A323468EBE5F6187DD66D852 /* canadaDemo-dummy.m */; };
 		B39EDBD67C198A4F183008F4E25F50FA /* Pods-canadaDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 119A466C9F4A32E716A92C33DA5A82E9 /* Pods-canadaDemo_Example-dummy.m */; };
+		B878E7691E33438541D2383FBC921F8D /* YRCollapsibleTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44566D8589523F7F2DD809B9A44A76CC /* YRCollapsibleTabBarController.m */; };
+		D328EB0EFC8150A1338D865ACD9B1292 /* canadaDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 255FDFE251B297256450F027667CD181 /* canadaDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,29 +36,29 @@
 		02C6D49E094A48525ED99700AE51E587 /* Pods_canadaDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_canadaDemo_Tests.framework; path = "Pods-canadaDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B84CACCCD5586780F0AA8275C85963 /* canadaDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "canadaDemo-prefix.pch"; sourceTree = "<group>"; };
 		08E5E57078A5582179FB344160BBB798 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C25DD6FA6EBA1D8A6EDEA90A39BCCF /* YRCollapsibleTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YRCollapsibleTabBar.h; sourceTree = "<group>"; };
 		119A466C9F4A32E716A92C33DA5A82E9 /* Pods-canadaDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-canadaDemo_Example-dummy.m"; sourceTree = "<group>"; };
 		1DC95DD0E1B70B364EB677C22A7A00FB /* Pods-canadaDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-canadaDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		255FDFE251B297256450F027667CD181 /* canadaDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "canadaDemo-umbrella.h"; sourceTree = "<group>"; };
 		2F6DC859F9E8FA1395343BEB57240ECE /* Pods-canadaDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-canadaDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3342E25D994965FB65F0F7F4D98A9ED3 /* Pods-canadaDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-canadaDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		43C42D26832DA218A7DACE5A8DA84CC4 /* Pods-canadaDemo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-canadaDemo_Tests-resources.sh"; sourceTree = "<group>"; };
+		44566D8589523F7F2DD809B9A44A76CC /* YRCollapsibleTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YRCollapsibleTabBarController.m; sourceTree = "<group>"; };
 		5B8812FA08B8159DD6144D9A68C7BC71 /* Pods-canadaDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-canadaDemo_Example-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7CC00B79A51EB12ADF3CA466B7D1B01C /* Pods-canadaDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-canadaDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7F816531AF66533E5BAAC53DD5D7C7F3 /* YRTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YRTabBar.m; sourceTree = "<group>"; };
 		84AF8BCF2E3626AE8F356ABCE66EF038 /* Pods-canadaDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-canadaDemo_Tests.modulemap"; sourceTree = "<group>"; };
 		8590B799C60B062D44B0F2A4F69C0051 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88B4B10801A4ED67886D2ED0722E1DB4 /* Pods-canadaDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-canadaDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8B02EEB1667E010102B3DEFB532DA87C /* YRTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YRTabBarController.h; sourceTree = "<group>"; };
-		92200AFA5DC6F0C6BD5C92BA0BF13709 /* YRTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YRTabBarController.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C76348B9BCC433C31DAE05AE6D77112 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EEE4C54187FF5B0EDE74AC56D8883DD /* YRCollapsibleTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YRCollapsibleTabBarController.h; sourceTree = "<group>"; };
 		A5450EF7A323468EBE5F6187DD66D852 /* canadaDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "canadaDemo-dummy.m"; sourceTree = "<group>"; };
 		A848F138B412B959089D1E4D66CA5FF7 /* Pods-canadaDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-canadaDemo_Example.modulemap"; sourceTree = "<group>"; };
 		B4BF37F4025E08BCF4AFCA73BFCF4D04 /* Pods-canadaDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-canadaDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B840825586B942635941E005BB172310 /* canadaDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = canadaDemo.modulemap; sourceTree = "<group>"; };
+		BE839A7D4037CEC33F90AE9C42010A9F /* YRCollapsibleTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YRCollapsibleTabBar.m; sourceTree = "<group>"; };
 		BEE85F912458941EEB96791997016A46 /* Pods-canadaDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-canadaDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C50906053E2B0897D0392541AD0BA3E8 /* YRTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YRTabBar.h; sourceTree = "<group>"; };
 		C920D713B0900FC8D24F81FA83D1BB00 /* Pods_canadaDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_canadaDemo_Example.framework; path = "Pods-canadaDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E3F4A436B69932CD17EB026EC9DC8B /* Pods-canadaDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-canadaDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D23BD5940505709DC0C489EF411686AF /* Pods-canadaDemo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-canadaDemo_Example-resources.sh"; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 		0AF1201899A6DF04A32525035B346D47 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C9B093F57CE4C45D216035C79DAC40D4 /* YRTarBar */,
+				AB0D5F158ADBABD51097AB7359E52178 /* YRTarBar */,
 			);
 			name = Classes;
 			path = Classes;
@@ -196,6 +196,18 @@
 			path = "Target Support Files/Pods-canadaDemo_Tests";
 			sourceTree = "<group>";
 		};
+		AB0D5F158ADBABD51097AB7359E52178 /* YRTarBar */ = {
+			isa = PBXGroup;
+			children = (
+				09C25DD6FA6EBA1D8A6EDEA90A39BCCF /* YRCollapsibleTabBar.h */,
+				BE839A7D4037CEC33F90AE9C42010A9F /* YRCollapsibleTabBar.m */,
+				9EEE4C54187FF5B0EDE74AC56D8883DD /* YRCollapsibleTabBarController.h */,
+				44566D8589523F7F2DD809B9A44A76CC /* YRCollapsibleTabBarController.m */,
+			);
+			name = YRTarBar;
+			path = YRTarBar;
+			sourceTree = "<group>";
+		};
 		B47FBC2500A5A009672A32415A2824D8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,18 +232,6 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C9B093F57CE4C45D216035C79DAC40D4 /* YRTarBar */ = {
-			isa = PBXGroup;
-			children = (
-				C50906053E2B0897D0392541AD0BA3E8 /* YRTabBar.h */,
-				7F816531AF66533E5BAAC53DD5D7C7F3 /* YRTabBar.m */,
-				8B02EEB1667E010102B3DEFB532DA87C /* YRTabBarController.h */,
-				92200AFA5DC6F0C6BD5C92BA0BF13709 /* YRTabBarController.m */,
-			);
-			name = YRTarBar;
-			path = YRTarBar;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -261,13 +261,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EEF507D15AF5C5C76435C7BB0921A4B /* Headers */ = {
+		DD16B7E31E3A08E717A39246A18610A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				612947EF1D3F889BF159353412EDC3F6 /* canadaDemo-umbrella.h in Headers */,
-				8886DB3E1CF0C49ECEF50554D16288F6 /* YRTabBar.h in Headers */,
-				327BFB766D5E02284221C8243FB02120 /* YRTabBarController.h in Headers */,
+				D328EB0EFC8150A1338D865ACD9B1292 /* canadaDemo-umbrella.h in Headers */,
+				0111E12B01CA99741401B1C7D065F25D /* YRCollapsibleTabBar.h in Headers */,
+				1F6054D99F505095BB2197C8BC452769 /* YRCollapsibleTabBarController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,9 +313,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90837E451139B91F2B296944A3B86E55 /* Build configuration list for PBXNativeTarget "canadaDemo" */;
 			buildPhases = (
-				94069635A2C9F12A4BC0595E5E79BD8C /* Sources */,
+				471DB63D8F239C3BDB000D251D98AA49 /* Sources */,
 				642FA50442ADB096F99795D309C2B81A /* Frameworks */,
-				9EEF507D15AF5C5C76435C7BB0921A4B /* Headers */,
+				DD16B7E31E3A08E717A39246A18610A9 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -355,21 +355,21 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		471DB63D8F239C3BDB000D251D98AA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33133B22B3C87045CE5ED7CDF8FB907 /* canadaDemo-dummy.m in Sources */,
+				14F8E41F82585160BE6F3422335B53FE /* YRCollapsibleTabBar.m in Sources */,
+				B878E7691E33438541D2383FBC921F8D /* YRCollapsibleTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48CD25D732AA81123361C68E18F0A990 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B39EDBD67C198A4F183008F4E25F50FA /* Pods-canadaDemo_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94069635A2C9F12A4BC0595E5E79BD8C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				34C0E13EE876AFFA5627A1285478FAA9 /* canadaDemo-dummy.m in Sources */,
-				89D677322C1358955BB5E32D8684788A /* YRTabBar.m in Sources */,
-				6DD6D2D48A479A51B3F81B4BE80A1EDE /* YRTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

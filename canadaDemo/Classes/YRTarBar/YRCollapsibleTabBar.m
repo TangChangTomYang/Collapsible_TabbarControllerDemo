@@ -1,5 +1,5 @@
 //
-//  YRTabBar.m
+//  YRCollapsibleTabBar.m
 //  canadaDemo
 //
 //  Created by yangrui on 2017/6/17.
@@ -7,16 +7,16 @@
 //
 
 #define FolderDuration 0.5
-#import "YRTabBar.h"
+#import "YRCollapsibleTabBar.h"
 
 
-@interface YRTabBar ()
+@interface YRCollapsibleTabBar ()
 
 @property(nonatomic, strong)UIButton *topFolderBtn;
 @property(nonatomic, assign,readonly)BOOL isFold;
 @property(nonatomic, assign)BOOL isDown;
 @end
-@implementation YRTabBar
+@implementation YRCollapsibleTabBar
 
 
 -(instancetype)initWithFrame:(CGRect)frame{

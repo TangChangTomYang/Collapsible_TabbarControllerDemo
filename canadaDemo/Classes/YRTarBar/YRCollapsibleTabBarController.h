@@ -1,5 +1,5 @@
 //
-//  YRTabBar.h
+//  YRCollapsibleTabBarController.h
 //  canadaDemo
 //
 //  Created by yangrui on 2017/6/17.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YRTabBar : UITabBar
+@interface YRCollapsibleTabBarController : UITabBarController
 
 @end

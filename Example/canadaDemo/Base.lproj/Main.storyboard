@@ -87,10 +87,10 @@
             </objects>
             <point key="canvasLocation" x="1954" y="-194"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Collapsible Tab Bar Controller-->
         <scene sceneID="lpi-ar-seh">
             <objects>
-                <tabBarController id="ET2-cJ-U1a" customClass="YRTabBarController" sceneMemberID="viewController">
+                <tabBarController id="ET2-cJ-U1a" customClass="YRCollapsibleTabBarController" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Yll-IL-3j7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -377,10 +377,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="five" width="40" height="40"/>
-        <image name="four" width="40" height="40"/>
-        <image name="one" width="40" height="40"/>
-        <image name="three" width="40" height="40"/>
-        <image name="two" width="40" height="40"/>
+        <image name="five" width="30" height="30"/>
+        <image name="four" width="30" height="30"/>
+        <image name="one" width="30" height="30"/>
+        <image name="three" width="30" height="30"/>
+        <image name="two" width="30" height="30"/>
     </resources>
 </document>
